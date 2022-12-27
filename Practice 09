@@ -1,0 +1,46 @@
+<!-- hyperlink creating  -->
+
+<!doctype html>
+
+<html>
+    <head>
+        <title>Page 01 </title>
+        <body>
+       <h1>
+        List of programming languages
+       </h1>
+       <ol>
+        <li> Java
+        <li> Python
+        <li> C++
+        <li> C
+       </ol>
+
+<a href="http://www.google.com" target="blank">click here to go google </a><br/>
+<a href="http://www.youtube.com" target="blank">click here to go youtube </a><br/>
+
+       
+</body>
+    </head>
+</html>
+
+<!-- div testing -->
+
+<!doctype html>
+
+<html>
+    <head>
+        <title> div </title>
+
+        <body>
+            <div id="div1" style="background-color: aqua; height:200px; width:100%">
+            <p>This is div aqua</p></div>
+            <div id="div2" style="background-color: blue; height:200px; width:100%"></div>
+            <p>This is div blue</p>
+            <div id="div3" style="background-color: green; height:200px; width:100%"></div>
+            <p>This is div green</p>
+
+    
+</body>
+    </head>
+</html>
