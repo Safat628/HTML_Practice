@@ -1,0 +1,28 @@
+<!-- Text formatting tag-->
+<!-- <u> underline
+    <i> italic
+    <sup> superscript
+    <sub> subscript  -->
+
+<!doctype html>
+
+<html>
+   <head>
+    <title> Text formatting </title>
+   </head>
+  
+<body>
+      Yunnan University <br/>
+     <u>Yunnan University</u> <br/>
+     <b>Yunnan University</b> <br/>
+     <i>Yunnan University</i> <br/>
+     <strike>Yunnan University</strike> <br/>
+     <sup>Yunnan University</sup> <br/>
+     <sub>Yunnan University</sub> <br/>
+
+     (a+b)<sup>2</sup> = a<sup>2</sup>+2ab+b <sup>2</sup> <br/>
+     <br/>
+     H<sub>2</sub>O
+
+</body>
+</html>
