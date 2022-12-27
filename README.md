@@ -1,2 +1,2 @@
 # HTML_Practice
-This is fron beginner to Advanced Practiced code 
+This is a practice code fron beginner to Advanced Practiced code 
