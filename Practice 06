@@ -1,0 +1,20 @@
+<!-- Using symbol and Emojis  -->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Emojis </title>
+        <body>
+        
+            &#8986; <br/>
+
+    <!-- HTML font size  -->
+
+    <!-- before it was used by using <font> tag but now we can use with <style> tag  -->
+
+        <h1 style="color:rgb(7, 217, 147)"; font-size="25px";>I love my country</h1>
+     
+        </body>
+    </head>
+</html>   
