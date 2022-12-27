@@ -1,1 +1,23 @@
 
+<!-- How to add image to the website -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+              add image
+        </title>
+
+        <body>
+
+            <img src="web.jpg" height="1080px" width="1920px" /> 
+
+    <!-- How to add video/website link to the page using the iFrame-->
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KehujfbRBts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </body>
+    </head>
+</html>
+
