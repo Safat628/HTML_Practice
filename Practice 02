@@ -1,1 +1,20 @@
 
+<!-- html css basic using -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>
+            Learning html course 
+          </title>
+        </head>
+       
+        <body style="background-color:black"> 
+           <!-- Basic css to learn to understand HTML -->
+    
+           <h1 style="text-align:center; color:red"> Bangladesh</h1>
+            <h2 style="text-align:center; color: green">Dhaka</h2>
+             
+        </body>
+   
+</html> 
