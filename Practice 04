@@ -1,0 +1,21 @@
+<!-- text formatting practice 02 -->
+<!-- random question-->
+
+<!doctype html>
+<html>
+    <head>
+        <title> Practice text formatting</title>
+        <body style="background-color:aqua">
+        
+            <b>Number System</b> <br/>
+            <i>Digital Device</i> <br/>
+            <u>Website Design and HTML</u> <br/>
+            <b><i><u>Java Programming</b></i></u> <br/>
+            <strike>DELETED TEXT</strike> <br/>
+            LOG<sub>10</sub>X<sup>3</sup> <br/>
+            This is my<mark>Homework</mark> <br/>
+            <del>deleted text</del>
+
+        </body>
+    </head>
+</html>
