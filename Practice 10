@@ -1,0 +1,294 @@
+<!-- Audio add  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Audion add in website
+        </title>
+    </head>
+    <body>
+
+        <audio controls>
+            <source src="C:\Users\ASUS\Downloads\Dusk.mp3" type="audio/mpeg">
+        </audio>
+       
+       
+       
+        <!-- Video add  -->
+
+        <video controls>
+            <source src="H:\Web dev\html complete course Bangla (Beginner to Advanced)\web design front end developer Bangla Tutorial.mp4" type="video/mp4">
+
+        </video>
+
+    </body>
+
+</html>
+
+
+
+
+<!-- form creation  -->
+<!doctype html>
+<html>
+    <head>
+        <title>Form Create</title>
+    </head>
+    <h1> Registration form</h1>
+
+        <body>
+
+           <!-- use fromspree api website to bring your form data to you email -->
+           
+            <form action="https://formspree.io/f/xeqwjzoa" method="POST" >
+          <div>
+            <label for="fullname">fullname:</label>
+            <input type="fullname" name="Fullname" id="fullname">
+          </div> <br>
+          
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" email="email">
+          </div> <br>
+          
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+          </div> <br>
+          
+          <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dob" id="dob">
+          </div> <br>
+          
+          <div>
+            <label for="photo">Choose your photo:</label>
+            <input type="file" name="photo" id="photo">
+          </div> <br>
+          
+          <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="Male">Male
+            <input type="radio" name="gender" id="gender" value="Female">Female
+        
+          </div> <br>
+          <div>
+            <label for="religion">Religion:</label>
+            <input type="checkbox" name="religion" id="religion" value="Islam">Ialam
+            <input type="checkbox" name="religion" id="religion" value="Christian">Christian
+            <input type="checkbox" name="religion" id="religion" value="Buddhist">Buddhist
+            <input type="checkbox" name="religion" id="religion" value="Hindu">Hindu
+            
+          </div> <br>
+
+          <div>
+            <label for="department">Department:</label>
+            <select name="department">
+                <option value="Computer science">Computer science</option>
+                <option value="science">Science</option>
+                <option value="mathemetics">Mathemetics</option>
+                </select>
+
+                </div> <br>
+            
+            <div>
+                <label for="message">Message:</label> <br>
+                <textarea cols="30" rows="10"></textarea>
+            
+            </div>
+            <div>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </div>
+        
+            
+                
+                </div>
+
+
+        </body>
+    
+</html>
+
+
+
+<!-- Table creaing 01 -->
+
+<!doctype html>
+
+<html>
+    <head>
+        <title> table </title>
+
+        <style>
+           table{
+            height:100; 
+            width: 200; 
+            border: solid black;
+            border-collapse: collapse;
+           }
+            tr{
+                text-align:center;
+            }
+
+           td,th{
+            border: solid black;
+           }
+        </style>
+
+        <body >
+        <table > <!-- can be used to create row,table and border ....border="1",height="200" width="100" -->
+            <thead>
+            <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+        </tr>
+        <td>01</td>
+        <td>Anik</td>
+        <td>3.50</td>
+        <tr>
+            <td>02</td>
+            <td>Arif</td>
+            <td>3.80</td>
+        </tr>
+        <td>03</td>
+        <td>Safat</td>
+        <td>4.00</td>
+
+        
+       
+    </thead>
+
+        </table>
+          
+
+    
+</body>
+    </head>
+</html>
+
+
+<!-- table creating and using rawpan colspan -->
+
+<!doctype html>
+
+<html>
+    <title>Rawspan and colspan</title>
+
+    <style>
+        table,td,th{
+            border: 1px solid black
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 200px;
+            height: 100px;
+        }
+
+    </style>
+
+<head>
+    <body>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th colspan="2">phone</th> <!-- colspan -->
+                    
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Safat</td>
+                    <td>111</td>
+                    <td rowspan="2">222</td> <!-- rowspan -->
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>Anik</td>
+                    <td>151</td>
+                   
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>Nick</td>
+                    <td>145</td>
+                    <td>285</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+    </body>
+</head>
+</html>
+
+
+<!-- table access -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+    <title> Accessible table
+
+    </title>
+
+   </head>
+
+   <body>
+    <header>
+        <h1>HTML Table</h1>
+
+    </header>
+
+    <main>
+        <table>
+            <caption>
+                Students Info
+            </caption>
+            <colgroup>
+            <col span="3" style="background-color: rgb(225, 229, 16);"
+            
+            </colgroup>
+            <thead>
+
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">GPA</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row"> 101</td>
+                    <td> Nick</td>
+                    <td> 3.94</td>
+                       
+                    
+
+                </tr>
+                <tr>
+                    <td scope="row">102</td>
+                    <td> Nicolas</td>
+                    <td> 3.90</td>
+                       
+                    
+
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+
+   </body>
+</html>
