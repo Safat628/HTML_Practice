@@ -1,0 +1,26 @@
+<!-- Learn entities -->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entities</title>
+        <body>
+         <!-- if you want space between lines you need to use &nbsp: -->
+
+         My university is &nbsp; in China<br/>
+
+         &copy; copyright <!-- &copy; for symbol -->
+         &lt; body &gt; <!-- less than greater than symbol -->
+
+         <!-- using the pre tag -->
+         <pre>
+        My name is Anik
+            I live in Dhaka
+        I love my city 
+            It is a beautiful day
+            </pre>
+
+        </body>
+    </head>
+</html>   
