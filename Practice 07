@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+    <meta= charset="UTF-8";>
+
+<head>
+    <title>
+      Order list
+    </title>
+
+    <body>
+
+    <!-- ordered and unordered list -->
+
+
+    <h2>Ordered list</h2>
+    <ol>
+        <li> I love Bangladesh <bt/>
+        <li> I love China <bt/>
+    
+    </ol>
+    <h2>Unordered list</h2>
+    <ul>
+        <li> I love Bangladesh <bt/>
+        <li> I love China <bt/>
+    </ul>
+
+    <!-- we can change the order list type  -->
+    <h3>Ordered list</h3>
+
+    <ol type="A">
+    <li> I love Bangladesh <bt/>
+    <li> I love China <bt/>
+    </ol>
+    <!-- aslo we can change the value of unordered list as like ordered list A,I,a,circle and numbers-->
+
+    </body>
+</head>
+</html>
