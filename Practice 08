@@ -21,3 +21,56 @@
     </head>
 </html>
 
+
+
+
+<!-- Using the progress bar-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>progress bar and svg</title>
+</head>
+
+<body>
+
+    <img src="C:\Users\ASUS\Desktop\tiger.jpg" height="200px" width="400px"> <br>
+
+    <ol>
+       
+       <li>HTML <progress min="0" max="100" value="90"> </progress> </li>  <br>
+    
+    <li> CSS <progress min="0" max="100" value="80"> </progress></li> <br>
+      <li>JS <progress min="0" max="100" value="70"> </progress></li><br>
+
+    </ol>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>progress bar and svg</title>
+</head>
+
+<body>
+
+    <img src="C:\Users\ASUS\Desktop\tiger.jpg" height="200px" width="400px"> <br>
+
+    <ol>
+       
+       <li>HTML <progress min="0" max="100" value="90"> </progress> </li>  <br>
+    
+    <li> CSS <progress min="0" max="100" value="80"> </progress></li> <br>
+      <li>JS <progress min="0" max="100" value="70"> </progress></li><br>
+
+    </ol>
+
+</body>
+
+</html> 
+
+
