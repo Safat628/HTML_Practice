@@ -1,0 +1,108 @@
+
+ <!-- Sample practice project  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yunnan University</title>
+</head>
+
+   <body background="Images\background.jpg"
+   
+   style="background-color: beige;">
+
+   
+    <h1 
+    align="center">  <font size= 14px>Student Portal and additional infomation </font></h1> 
+    <p align="center"> <img src="images/logo.png"></p> 
+
+    <hr color="black">
+    <div> 
+        
+       <u> <h1 align="center">Here you can learn about this university</h1><br> </u> 
+        <iframe src="https://sg.trip.com/travel-guide/attraction/kunming/yunnan-university-91436/" height="500" width="1000"> </iframe>
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/iZIp3n6fab0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> <br>   
+    </div>
+
+    <h1>  
+        Yunnan University</font> </h1><hr color="black">
+
+    <p1> 
+        
+        <font size="5px" align="justify"> Yunnan University was founded in 1922 when it was Private Donglu University. In 1934, it was renamed as Provincial Yunnan University and in 1938 renamed as National Yunnan University.  It is one of the earliest comprehensive universities in Southwest China.In the 1950s, when Yunnan University was under the direct administration of the Ministry of Education, the national faculty restructuring was introduced. Some important featured departments, like aeronautics, civil engineering, law, and railway spun off from Yunnan University and merged into colleges like Beijing Aeronautical and Astronautical Institute, Sichuan University, Southwest University of Political Science and Law and Changsha Railway Institute.
+    </p1> <br> <hr color="black">
+
+
+    <div>
+        <!-- use fromspree api website to bring your form data to you email -->
+           
+        <form action="https://formspree.io/f/xeqwjzoa" method="POST" >
+            <div>
+              <label for="fullname">fullname:</label>
+              <input type="fullname" name="Fullname" id="fullname">
+            </div> <br>
+            
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" name="email" email="email">
+            </div> <br>
+            
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password">
+            </div> <br>
+            
+            <div>
+              <label for="dob">Date of birth:</label>
+              <input type="date" name="dob" id="dob">
+            </div> <br>
+            
+            <div>
+              <label for="photo">Choose your photo:</label>
+              <input type="file" name="photo" id="photo">
+            </div> <br>
+            
+            <div>
+              <label for="gender">Gender:</label>
+              <input type="radio" name="gender" id="gender" value="Male">Male
+              <input type="radio" name="gender" id="gender" value="Female">Female
+          
+            </div> <br>
+            <div>
+              <label for="religion">Religion:</label>
+              <input type="checkbox" name="religion" id="religion" value="Islam">Ialam
+              <input type="checkbox" name="religion" id="religion" value="Christian">Christian
+              <input type="checkbox" name="religion" id="religion" value="Buddhist">Buddhist
+              <input type="checkbox" name="religion" id="religion" value="Hindu">Hindu
+              
+            </div> <br>
+  
+            <div>
+              <label for="department">Department:</label>
+              <select name="department">
+                  <option value="Computer science">Computer science</option>
+                  <option value="science">Science</option>
+                  <option value="mathemetics">Mathemetics</option>
+                  </select>
+  
+                  </div> <br>
+              
+              <div>
+                  <label for="message">Message:</label> <br>
+                  <textarea cols="30" rows="10"></textarea>
+              
+              </div>
+              <div>
+                  <input type="submit" value="Register">
+                  <input type="reset" value="Clear">
+              </div>
+          
+              
+                 
+                  </div>
+                  <br> 
+
+    </div>
+
+   </body>
+</html>
